@@ -23,6 +23,7 @@ add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
 
 function cutom_theme_option()
 {
-	include_once(plugin_dir_url( __FILE__ ).'Slider-plugin/slider_content.php');
+	//echo plugin_dir_path( __FILE__ ).'slider_content.php';
+	include_once(plugin_dir_path( __FILE__ ).'slider_content.php');
 }
 ?>
